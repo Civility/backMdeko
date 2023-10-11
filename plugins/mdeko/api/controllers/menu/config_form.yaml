@@ -1,0 +1,10 @@
+name: Menu
+form: $/mdeko/api/models/menu/fields.yaml
+modelClass: Mdeko\Api\Models\Menu
+defaultRedirect: mdeko/api/menu
+create:
+    redirect: 'mdeko/api/menu/update/:id'
+    redirectClose: mdeko/api/menu
+update:
+    redirect: mdeko/api/menu
+    redirectClose: mdeko/api/menu

@@ -1,0 +1,26 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table mdeko_api_menu'
+    - builder_table_create_mdeko_api_menu.php
+1.0.3:
+    - 'Created table mdeko_api_contacts'
+    - builder_table_create_mdeko_api_contacts.php
+1.0.4:
+    - 'Created table mdeko_api_banner'
+    - builder_table_create_mdeko_api_banner.php
+1.0.5:
+    - 'Created table mdeko_api_callback'
+    - builder_table_create_mdeko_api_callback.php
+1.0.6:
+    - 'Created table mdeko_api_category'
+    - builder_table_create_mdeko_api_category.php
+1.0.7:
+    - 'Created table mdeko_api_item'
+    - builder_table_create_mdeko_api_item.php
+1.0.8:
+    - 'Created table mdeko_api_order'
+    - builder_table_create_mdeko_api_order.php
+1.0.9:
+    - 'Updated table mdeko_api_callback'
+    - builder_table_update_mdeko_api_callback.php

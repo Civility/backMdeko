@@ -1,0 +1,10 @@
+name: Callback
+form: $/mdeko/api/models/callback/fields.yaml
+modelClass: Mdeko\Api\Models\Callback
+defaultRedirect: mdeko/api/callback
+create:
+    redirect: 'mdeko/api/callback/update/:id'
+    redirectClose: mdeko/api/callback
+update:
+    redirect: mdeko/api/callback
+    redirectClose: mdeko/api/callback

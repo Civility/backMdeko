@@ -1,0 +1,25 @@
+columns:
+    id:
+        label: id
+        type: number
+    created_at:
+        label: created_at
+        type: datetime
+    updated_at:
+        label: updated_at
+        type: datetime
+    order:
+        label: order
+        type: text
+    active:
+        label: active
+        type: switch
+    slug:
+        label: slug
+        type: text
+    text:
+        label: text
+        type: text
+    title:
+        label: title
+        type: text

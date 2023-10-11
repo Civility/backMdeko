@@ -1,0 +1,5 @@
+title: Banner
+modelClass: Mdeko\Api\Models\Banner
+nameFrom: title
+toolbar:
+    buttons: reorder_toolbar

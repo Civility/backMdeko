@@ -1,0 +1,5 @@
+title: Contacts
+modelClass: Mdeko\Api\Models\Contacts
+nameFrom: title
+toolbar:
+    buttons: reorder_toolbar

@@ -1,0 +1,26 @@
+columns:
+    id:
+        label: id
+        type: number
+    phone:
+        label: phone
+        type: text
+    text:
+        label: text
+        type: text
+    email:
+        label: email
+        type: text
+    name:
+        label: name
+        type: text
+    created_at:
+        label: created_at
+        type: datetime
+    updated_at:
+        label: updated_at
+        type: datetime
+        invisible: true
+    ip:
+        label: ip
+        type: number

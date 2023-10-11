@@ -1,0 +1,5 @@
+title: Item
+modelClass: Mdeko\Api\Models\Item
+nameFrom: title
+toolbar:
+    buttons: reorder_toolbar

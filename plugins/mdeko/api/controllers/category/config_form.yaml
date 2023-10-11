@@ -1,0 +1,10 @@
+name: Category
+form: $/mdeko/api/models/category/fields.yaml
+modelClass: Mdeko\Api\Models\Category
+defaultRedirect: mdeko/api/category
+create:
+    redirect: 'mdeko/api/category/update/:id'
+    redirectClose: mdeko/api/category
+update:
+    redirect: mdeko/api/category
+    redirectClose: mdeko/api/category

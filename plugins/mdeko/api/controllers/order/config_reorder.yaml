@@ -1,0 +1,4 @@
+title: Order
+modelClass: Mdeko\Api\Models\Order
+toolbar:
+    buttons: reorder_toolbar

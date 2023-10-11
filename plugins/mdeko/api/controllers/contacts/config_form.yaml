@@ -1,0 +1,10 @@
+name: Contacts
+form: $/mdeko/api/models/contacts/fields.yaml
+modelClass: Mdeko\Api\Models\Contacts
+defaultRedirect: mdeko/api/contacts
+create:
+    redirect: 'mdeko/api/contacts/update/:id'
+    redirectClose: mdeko/api/contacts
+update:
+    redirect: mdeko/api/contacts
+    redirectClose: mdeko/api/contacts

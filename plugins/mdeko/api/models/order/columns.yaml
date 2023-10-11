@@ -1,0 +1,80 @@
+columns:
+    id:
+        label: id
+        type: number
+    created_at:
+        label: created_at
+        type: datetime
+        invisible: true
+    updated_at:
+        label: updated_at
+        type: datetime
+        invisible: true
+    deleted_at:
+        label: deleted_at
+        type: datetime
+        invisible: true
+    sum:
+        label: sum
+        type: number
+        searchable: false
+    clientid:
+        label: clientid
+        type: text
+        searchable: true
+        invisible: false
+    orderid:
+        label: orderid
+        type: text
+        invisible: false
+    key:
+        label: key
+        type: number
+        invisible: true
+    service_name:
+        label: service_name
+        type: text
+        invisible: true
+    client_email:
+        label: client_email
+        type: text
+        searchable: true
+        invisible: false
+    client_phone:
+        label: client_phone
+        type: text
+        searchable: true
+        invisible: false
+    ps_id:
+        label: ps_id
+        type: number
+        invisible: true
+    batch_date:
+        label: batch_date
+        type: text
+        invisible: true
+    fop_receipt_key:
+        label: fop_receipt_key
+        type: number
+        invisible: true
+    bank_id:
+        label: bank_id
+        type: number
+        invisible: true
+    card_number:
+        label: card_number
+        type: number
+        invisible: true
+    card_holder:
+        label: card_holder
+        type: text
+        invisible: true
+    card_expiry:
+        label: card_expiry
+        type: text
+        invisible: true
+        select: title
+        relation: item
+    item_id:
+        label: item
+        type: text

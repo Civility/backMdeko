@@ -1,0 +1,10 @@
+name: Order
+form: $/mdeko/api/models/order/fields.yaml
+modelClass: Mdeko\Api\Models\Order
+defaultRedirect: mdeko/api/order
+create:
+    redirect: 'mdeko/api/order/update/:id'
+    redirectClose: mdeko/api/order
+update:
+    redirect: mdeko/api/order
+    redirectClose: mdeko/api/order

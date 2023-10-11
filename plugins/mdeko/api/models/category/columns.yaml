@@ -1,0 +1,25 @@
+columns:
+    id:
+        label: id
+        type: number
+    order:
+        label: order
+        type: text
+    active:
+        label: active
+        type: switch
+    title:
+        label: title
+        type: text
+    text:
+        label: text
+        type: text
+    slug:
+        label: slug
+        type: text
+    img:
+        label: img
+        type: text
+    icon:
+        label: icon
+        type: text

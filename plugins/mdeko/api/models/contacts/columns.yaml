@@ -1,0 +1,37 @@
+columns:
+    id:
+        label: id
+        type: number
+    title:
+        label: title
+        type: text
+    phone:
+        label: phone
+        type: text
+    email:
+        label: email
+        type: text
+    address:
+        label: address
+        type: text
+    social:
+        label: social
+        type: text
+    url:
+        label: url
+        type: text
+    icon:
+        label: icon
+        type: text
+    active:
+        label: active
+        type: switch
+    order:
+        label: order
+        type: text
+    created_at:
+        label: created_at
+        type: datetime
+    updated_at:
+        label: updated_at
+        type: datetime

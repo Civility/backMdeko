@@ -1,0 +1,10 @@
+name: Banner
+form: $/mdeko/api/models/banner/fields.yaml
+modelClass: Mdeko\Api\Models\Banner
+defaultRedirect: mdeko/api/banner
+create:
+    redirect: 'mdeko/api/banner/update/:id'
+    redirectClose: mdeko/api/banner
+update:
+    redirect: mdeko/api/banner
+    redirectClose: mdeko/api/banner

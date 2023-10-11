@@ -1,0 +1,42 @@
+fields:
+    title:
+        label: Заголовок
+        span: auto
+        required: 1
+        type: text
+    slug:
+        label: Ссылка
+        span: auto
+        required: 0
+        type: text
+    order:
+        label: Сортировка
+        span: auto
+        default: '0'
+        type: number
+    active:
+        label: Активна
+        span: auto
+        default: 1
+        type: switch
+    text:
+        label: Текст
+        size: large
+        span: full
+        type: richeditor
+tabs:
+    fields:
+        img:
+            label: Картинка
+            mode: image
+            span: auto
+            type: mediafinder
+            tab: Картинки
+        icon:
+            label: SVG
+            mode: file
+            span: auto
+            containerAttributes:
+                accept: .svg
+            type: mediafinder
+            tab: Картинки

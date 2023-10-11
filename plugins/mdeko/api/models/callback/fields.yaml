@@ -1,0 +1,33 @@
+fields:
+    name:
+        label: Имя
+        span: auto
+        readOnly: 1
+        type: text
+    phone:
+        label: Телефон
+        span: auto
+        readOnly: 1
+        type: text
+    created_at:
+        label: 'Дата создания'
+        mode: datetime
+        span: auto
+        readOnly: 1
+        type: datepicker
+    email:
+        label: email
+        span: auto
+        readOnly: 1
+        type: text
+    text:
+        label: 'Текстовая область'
+        size: large
+        span: full
+        readOnly: 1
+        type: textarea
+    ip:
+        label: IP
+        span: auto
+        readOnly: 1
+        type: text

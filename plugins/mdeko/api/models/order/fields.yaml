@@ -1,0 +1,48 @@
+fields:
+    service_name:
+        label: 'Наименование услуги'
+        span: auto
+        readOnly: 1
+        type: text
+    client_email:
+        label: 'Адрес электронной почты'
+        span: auto
+        readOnly: 1
+        type: text
+    client_phone:
+        label: Телефон
+        span: auto
+        readOnly: 1
+        type: text
+    batch_date:
+        label: 'Дата списания авторизованного платежа'
+        mode: datetime
+        span: auto
+        readOnly: 1
+        type: datepicker
+    id:
+        label: 'Уникальный номер платежа'
+        span: auto
+        type: number
+    status:
+        label: Статус
+        showSearch: true
+        span: auto
+        placeholder: 'mdeko.api::lang.canceled'
+        type: dropdown
+    sum:
+        label: 'Сумма платежа'
+        span: auto
+        readOnly: 1
+        type: number
+    clientid:
+        label: 'Фамилия Имя Отчество'
+        span: auto
+        readOnly: 1
+        type: text
+    item:
+        label: Связь
+        nameFrom: item
+        descriptionFrom: description
+        span: auto
+        type: relation

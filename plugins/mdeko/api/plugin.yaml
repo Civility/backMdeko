@@ -1,0 +1,37 @@
+plugin:
+    name: 'mdeko.api::lang.plugin.name'
+    description: 'mdeko.api::lang.plugin.description'
+    author: mdeko
+    icon: wn-icon-wordpress
+    replaces: {  }
+navigation:
+    main-menu-item:
+        label: Меню
+        url: mdeko/api/menu
+        icon: icon-university
+        sideMenu:
+            side-menu-item:
+                label: Контакты
+                url: mdeko/api/contacts
+                icon: icon-mobile-phone
+            side-menu-item2:
+                label: Почта
+                url: mdeko/api/callback
+                icon: icon-desktop
+    main-menu-item2:
+        label: Банер
+        url: mdeko/api/banner
+        icon: icon-indent
+    main-menu-item3:
+        label: Товар
+        url: mdeko/api/item
+        icon: icon-sitemap
+        sideMenu:
+            side-menu-item:
+                label: 'Категория товара'
+                url: mdeko/api/category
+                icon: icon-sort-amount-asc
+            side-menu-item2:
+                label: Заказ
+                url: mdeko/api/order
+                icon: icon-usd

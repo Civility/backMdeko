@@ -1,0 +1,165 @@
+fields:
+    title:
+        label: Заголовок
+        span: auto
+        required: 1
+        type: text
+    slug:
+        label: Ссылка
+        span: auto
+        required: 1
+        preset:
+            field: title
+            type: slug
+        type: text
+    order:
+        label: Сортировка
+        span: auto
+        default: '0'
+        type: number
+    active:
+        label: Активный
+        span: auto
+        default: 1
+        type: switch
+    article:
+        label: Артикль
+        span: auto
+        type: text
+    hit:
+        label: Хит
+        span: auto
+        type: switch
+    price_min:
+        label: 'Базовая цена'
+        span: auto
+        required: 1
+        type: number
+    price_max:
+        label: 'Доп. цена'
+        span: auto
+        type: number
+    url:
+        label: 'Ссылка на другой магазин'
+        span: auto
+        type: text
+    category:
+        label: Категория
+        nameFrom: title
+        descriptionFrom: description
+        span: full
+        type: relation
+tabs:
+    fields:
+        composition:
+            label: Состав
+            size: ''
+            span: auto
+            type: textarea
+            tab: Свойства
+        applications:
+            label: Применение
+            size: ''
+            span: auto
+            type: textarea
+            tab: Свойства
+        restriction:
+            label: Ограничение
+            size: ''
+            span: auto
+            type: textarea
+            tab: Свойства
+        storage:
+            label: Хранение
+            size: ''
+            span: auto
+            type: textarea
+            tab: Свойства
+        volum:
+            label: Объём
+            span: auto
+            type: text
+            tab: Свойства
+        best_before_date:
+            label: 'Срок годности'
+            span: auto
+            type: text
+            tab: Свойства
+        weight_box:
+            label: 'Вес с упаковкой'
+            span: auto
+            type: number
+            tab: Дополнительно
+        weight_no_box:
+            label: 'Вес без упаковкой'
+            span: auto
+            type: number
+            tab: Дополнительно
+        height_box:
+            label: 'Высота упаковки'
+            span: auto
+            type: number
+            tab: Дополнительно
+        width_box:
+            label: 'Ширина упаковки'
+            span: auto
+            type: number
+            tab: Дополнительно
+        action:
+            label: Действие
+            size: ''
+            span: auto
+            type: textarea
+            tab: Дополнительно
+        purpose:
+            label: Назначение
+            size: ''
+            span: auto
+            type: textarea
+            tab: Дополнительно
+        img:
+            label: 'Превью картинка'
+            mode: image
+            span: auto
+            type: mediafinder
+            tab: Картинки
+        slider:
+            label: Слайдер
+            prompt: 'Добавить новый пункт'
+            style: default
+            span: full
+            type: repeater
+            tab: Картинки
+            form:
+                fields:
+                    img:
+                        label: Картинка
+                        mode: image
+                        span: auto
+                        type: mediafinder
+                    alt:
+                        label: 'alt картинки'
+                        span: auto
+                        type: text
+        mini_text:
+            label: 'Краткое описание'
+            size: small
+            span: full
+            type: richeditor
+            tab: Текст
+        text:
+            label: Описание
+            size: large
+            span: full
+            type: richeditor
+            tab: Текст
+        meta_title:
+            label: 'meta title'
+            span: auto
+            type: text
+            tab: SEO
+        meta_desc:
+            label: 'meta desc'
+            span: auto
+            type: text
+            tab: SEO

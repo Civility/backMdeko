@@ -1,0 +1,70 @@
+fields:
+    email:
+        label: email
+        span: auto
+        required: 1
+        type: text
+    address:
+        label: Адресс
+        span: auto
+        required: 1
+        type: text
+    order:
+        label: Сортировка
+        span: auto
+        default: '0'
+        readOnly: 1
+        hidden: 0
+        type: number
+    active:
+        label: Активна
+        span: auto
+        default: 1
+        type: switch
+tabs:
+    fields:
+        city:
+            label: Город
+            prompt: 'Добавить новый пункт'
+            style: default
+            span: full
+            type: repeater
+            tab: Города
+            form:
+                fields:
+                    name:
+                        label: Название
+                        span: auto
+                        type: text
+                    phone:
+                        label: Телефон
+                        span: auto
+                        type: text
+                    icon:
+                        label: SVG
+                        mode: image
+                        imageWidth: '150'
+                        span: auto
+                        type: mediafinder
+        social:
+            label: 'Соц сети'
+            prompt: 'Добавить новый пункт'
+            style: default
+            span: full
+            type: repeater
+            tab: Соц.Сети
+            form:
+                fields:
+                    soc_title:
+                        label: Имя
+                        span: auto
+                        type: text
+                    soc_url:
+                        label: Текст
+                        span: auto
+                        type: text
+                    soc_icon:
+                        label: картинка
+                        mode: image
+                        span: auto
+                        type: mediafinder

@@ -1,0 +1,5 @@
+title: Category
+modelClass: Mdeko\Api\Models\Category
+nameFrom: title
+toolbar:
+    buttons: reorder_toolbar

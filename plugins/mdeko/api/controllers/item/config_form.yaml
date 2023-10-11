@@ -1,0 +1,10 @@
+name: Item
+form: $/mdeko/api/models/item/fields.yaml
+modelClass: Mdeko\Api\Models\Item
+defaultRedirect: mdeko/api/item
+create:
+    redirect: 'mdeko/api/item/update/:id'
+    redirectClose: mdeko/api/item
+update:
+    redirect: mdeko/api/item
+    redirectClose: mdeko/api/item

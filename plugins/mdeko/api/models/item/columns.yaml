@@ -1,0 +1,36 @@
+columns:
+    id:
+        label: id
+        type: number
+        sortable: true
+    created_at:
+        label: created_at
+        type: datetime
+    updated_at:
+        label: updated_at
+        type: datetime
+    active:
+        label: active
+        type: switch
+        sortable: true
+    order:
+        label: order
+        type: text
+        sortable: true
+    hit:
+        label: hit
+        type: text
+        sortable: true
+    slug:
+        label: slug
+        type: text
+    title:
+        label: title
+        type: text
+        sortable: true
+    category:
+        label: category
+        type: text
+        searchable: true
+        select: title
+        relation: category
